@@ -5,7 +5,6 @@ const Coupon = require('../models/Coupon');
 const Claim = require('../models/Claim');
 const auth = require('../middleware/auth');
 
-// Hardcoded admin for simplicity (use bcrypt in production)
 const ADMIN = { username: 'admin', password: 'securepass123' };
 
 router.post('/login', (req, res) => {

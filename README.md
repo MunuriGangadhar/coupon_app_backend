@@ -48,5 +48,5 @@ A Node.js/Express backend with MongoDB for distributing and managing coupons.
 ## Notes
 - Ensure MongoDB is running locally or via Atlas.
 - The frontend at `http://localhost:3000` relies on this backend.
-```
+
 
